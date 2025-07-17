@@ -206,9 +206,20 @@ export default function LPMangaSalesPage() {
             </Card>
           </div>
           <div className="text-center mt-8">
-            <Badge variant="default" className="bg-blue-600 text-white text-lg px-6 py-2">
-              契約率 2.5倍UP！あなたのビジネスが変わります
-            </Badge>
+            <Badge
+  asChild
+  variant="default"
+  className="bg-blue-600 text-white text-lg px-6 py-2"
+>
+  <a
+    href="https://coconala.com/services/3782562"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    契約率 2.5倍UP！あなたのビジネスが変わります
+  </a>
+</Badge>
+
           </div>
         </div>
       </section>
@@ -323,10 +334,20 @@ export default function LPMangaSalesPage() {
             月商100万円アップも夢じゃない。LP漫画導入で、あなたのビジネスを次のステージへ。
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-bold">
-              無料相談を申し込む
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Button
+  asChild
+  size="lg"
+  className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-bold"
+>
+  <a
+    href="https://coconala.com/services/3782562"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    無料相談を申し込む
+    <ArrowRight className="ml-2 h-5 w-5 inline-block" />
+  </a>
+</Button>
             <p className="text-sm opacity-75">※ 相談は完全無料。しつこい営業は一切ありません</p>
           </div>
         </div>
